@@ -1,0 +1,20 @@
+flatpak: /opt/apps/apps/binapps/anaconda3/2023.09/lib/libcrypto.so.3: version `OPENSSL_3.4.0' not found (required by /lib64/libostree-1.so.1)
+flatpak: /opt/apps/apps/binapps/anaconda3/2023.09/lib/libcrypto.so.3: version `OPENSSL_3.4.0' not found (required by /lib64/librpmio.so.9)
+Loading apps/binapps/pytorch/2.3.0-311-gpu-cu121
+  Loading requirement: apps/binapps/anaconda3/2023.09
+TF-IDF Vectorizer Model
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Using device: cuda
+Data loaded successfully. Columns: ['REVIEW', 'RATING', 'PRODUCT_TYPE', 'HELPFUL']
+Epoch 1/10, Avg Loss: 0.66
+Epoch 2/10, Avg Loss: 0.61
+Epoch 3/10, Avg Loss: 0.57
+Epoch 4/10, Avg Loss: 0.53
+Epoch 5/10, Avg Loss: 0.51
+Epoch 6/10, Avg Loss: 0.48
+Epoch 7/10, Avg Loss: 0.46
+Epoch 8/10, Avg Loss: 0.44
+Epoch 9/10, Avg Loss: 0.43
+Epoch 10/10, Avg Loss: 0.41
+Test Accuracy: 0.8427
+Test AUC: 0.9262

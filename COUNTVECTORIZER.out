@@ -1,0 +1,21 @@
+flatpak: /opt/apps/apps/binapps/anaconda3/2023.09/lib/libcrypto.so.3: version `OPENSSL_3.4.0' not found (required by /lib64/libostree-1.so.1)
+flatpak: /opt/apps/apps/binapps/anaconda3/2023.09/lib/libcrypto.so.3: version `OPENSSL_3.4.0' not found (required by /lib64/librpmio.so.9)
+Loading apps/binapps/pytorch/2.3.0-311-gpu-cu121
+  Loading requirement: apps/binapps/anaconda3/2023.09
+CountVectorizer Model
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Using device: cuda
+Data loaded successfully. Columns: ['REVIEW', 'RATING', 'PRODUCT_TYPE', 'HELPFUL']
+Epoch 1/10, Avg Loss: 0.5492
+Epoch 2/10, Avg Loss: 0.4245
+Epoch 3/10, Avg Loss: 0.3737
+Epoch 4/10, Avg Loss: 0.3428
+Epoch 5/10, Avg Loss: 0.3221
+Epoch 6/10, Avg Loss: 0.3056
+Epoch 7/10, Avg Loss: 0.2932
+Epoch 8/10, Avg Loss: 0.2828
+Epoch 9/10, Avg Loss: 0.2739
+Epoch 10/10, Avg Loss: 0.2666
+Validation AUC: 0.9285
+Test AUC: 0.9285
+Test Accuracy: 0.8632
