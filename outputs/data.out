@@ -1,0 +1,67 @@
+flatpak: /opt/apps/apps/binapps/anaconda3/2023.09/lib/libcrypto.so.3: version `OPENSSL_3.4.0' not found (required by /lib64/libostree-1.so.1)
+flatpak: /opt/apps/apps/binapps/anaconda3/2023.09/lib/libcrypto.so.3: version `OPENSSL_3.4.0' not found (required by /lib64/librpmio.so.9)
+Loading apps/binapps/pytorch/2.3.0-311-gpu-cu121
+  Loading requirement: apps/binapps/anaconda3/2023.09
+Using device: cuda
+Data loaded successfully. Columns: ['REVIEW', 'RATING', 'PRODUCT_TYPE', 'HELPFUL']
+Data preprocessing with TF-IDF
+Review: This is a wonderful album, that evokes memories of the 60's folk boom, yet contains original songs. ... | Label: 1
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0.]
+1
+Review: On one hand, this CD is a straight ahead instrumental rocker, but Johnny A really shows how great he... | Label: 1
+[0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.07684169 0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.        ]
+1
+1
+Review: this band reminds me of the thrill i first got when i listened to an Atreyu Album. It dies today rip... | Label: 1
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0.]
+1
+Review: Like I said I would, I finally got around to purchasing this CD. I especially like tracks 9-12. Chea... | Label: 1
+[0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.1506096  0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.         0.         0.14216247 0.         0.
+ 0.         0.         0.         0.         0.         0.
+ 0.         0.        ]
+1
+Review: Ok good CD. im not suprised. Ok jaheim may not have the b best voice but his music is good and it go... | Label: 1
+[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+ 0. 0.]
+1
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+Data preprocessing with CountVectorizer
+Review: This is a wonderful album, that evokes memories of the 60's folk boom, yet contains original songs. ... | Label: 1
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0]
+1
+Review: On one hand, this CD is a straight ahead instrumental rocker, but Johnny A really shows how great he... | Label: 1
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0]
+1
+Review: this band reminds me of the thrill i first got when i listened to an Atreyu Album. It dies today rip... | Label: 1
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0]
+1
+Review: Like I said I would, I finally got around to purchasing this CD. I especially like tracks 9-12. Chea... | Label: 1
+[0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 1 0 0 0 0 0 0 0 0 0 0]
+1
+Review: Ok good CD. im not suprised. Ok jaheim may not have the b best voice but his music is good and it go... | Label: 1
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0]
+1
